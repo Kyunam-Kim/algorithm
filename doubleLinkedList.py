@@ -26,6 +26,8 @@ def insert_node(data):
         node_T = node_T.next
     new_node.next = node_T
     node_P.next = new_node
+    new_node.prev = node_P
+    node_T.prev = new_node
 
 def print_list():
     global node_A
