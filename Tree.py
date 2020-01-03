@@ -61,6 +61,6 @@ if __name__=='__main__':
     print("<Post Traverse>")
     postorder_traverse(root)
     print("\n")
-    print("<Levelorder Traverse")
+    print("<Levelorder Traverse>")
     levelorder_traverse(root)
     print("\n")
