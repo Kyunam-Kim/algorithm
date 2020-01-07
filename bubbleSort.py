@@ -1,8 +1,8 @@
 import random
 import time
 
-compare_counter = 0
-swap_counter = 0
+# compare_counter = 0
+# swap_counter = 0
 
 def bubble_sort(random_list):
     for start_index in range(len(random_list) - 1):
@@ -14,7 +14,7 @@ def bubble_sort(random_list):
 
 if __name__=='__main__':
     list = []
-    input_n = input("Sorted data number")
+    input_n = input("Sorted data number: ")
     for i in range(int(input_n)):
         list.append(random.randint(1,int(input_n)))
     print("Before sort")
@@ -28,6 +28,6 @@ if __name__=='__main__':
     print(list)
 
     print("data size: {}".format(int(input_n)))
-    print("compare counter: {}".format(compare_counter)
-    print("swap counter: {}".format(swap_counter)
-    print("running time: {}".format(running_time)
+    # print("compare counter: {}".format(compare_counter))
+    # print("swap counter: {}".format(swap_counter))
+    print("running time: {}".format(running_time))
